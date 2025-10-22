@@ -1,0 +1,11 @@
+{
+  "flow" : {
+    "createdTimestamp" : 1761122751322,
+    "description" : "Минимальный флоу для работы связки kafka minio",
+    "identifier" : "kafka-minio-minimal-flow",
+    "lastModifiedTimestamp" : 1761122751322,
+    "name" : "kafka->minio minimal flow",
+    "versionCount" : 0
+  },
+  "latest" : false
+}
