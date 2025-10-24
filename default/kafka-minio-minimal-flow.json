@@ -14,7 +14,10 @@
     "connections" : [ {
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
+      "bends" : [ {
+        "x" : -208.0,
+        "y" : 240.0
+      } ],
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
@@ -134,7 +137,10 @@
     }, {
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
+      "bends" : [ {
+        "x" : -208.0,
+        "y" : -40.0
+      } ],
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
@@ -164,7 +170,10 @@
     }, {
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
+      "bends" : [ {
+        "x" : -208.0,
+        "y" : 104.0
+      } ],
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
@@ -503,23 +512,23 @@
       "identifier" : "3929c36b-2a8e-39a4-a951-b0a2e7234a2c",
       "position" : {
         "x" : 80.0,
-        "y" : 696.0
+        "y" : 472.0
       }
     }, {
       "componentType" : "FUNNEL",
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "951a2ebb-588f-3724-bcd3-32347a4592bd",
       "position" : {
-        "x" : 568.0,
-        "y" : 88.0
+        "x" : 576.0,
+        "y" : 8.0
       }
     }, {
       "componentType" : "FUNNEL",
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "f28dddbb-8acb-330c-8f29-49d43e813650",
       "position" : {
-        "x" : 574.5,
-        "y" : 481.3996276855469
+        "x" : 584.0,
+        "y" : 280.0
       }
     } ],
     "identifier" : "flow-contents-group",
@@ -553,7 +562,7 @@
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -72.0,
-        "y" : 424.0
+        "y" : 240.0
       },
       "properties" : {
         "Endpoint Override URL" : "http://minio:9000",
@@ -893,7 +902,7 @@
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -72.0,
-        "y" : 232.0
+        "y" : 104.0
       },
       "properties" : {
         "importType" : "${filename:substringAfterLast('.')}",
@@ -982,7 +991,7 @@
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -72.0,
-        "y" : 40.0
+        "y" : -32.0
       },
       "properties" : {
         "Destination" : "flowfile-attribute",
@@ -1057,6 +1066,6 @@
   "snapshotMetadata" : {
     "author" : "admin",
     "flowIdentifier" : "kafka-minio-minimal-flow",
-    "timestamp" : 1761122752238
+    "timestamp" : 1761348704632
   }
 }
