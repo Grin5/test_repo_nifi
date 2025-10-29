@@ -1642,14 +1642,14 @@
           "group" : "org.apache.nifi",
           "version" : "2.6.0"
         },
-        "type" : "org.apache.nifi.distributed.cache.client.AtomicDistributedMapCacheClient"
+        "type" : "org.apache.nifi.distributed.cache.client.DistributedMapCacheClient"
       }, {
         "bundle" : {
           "artifact" : "nifi-standard-services-api-nar",
           "group" : "org.apache.nifi",
           "version" : "2.6.0"
         },
-        "type" : "org.apache.nifi.distributed.cache.client.DistributedMapCacheClient"
+        "type" : "org.apache.nifi.distributed.cache.client.AtomicDistributedMapCacheClient"
       } ],
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "72b50344-1329-3dec-a7a8-f0d9bc21a6fa",
@@ -2679,14 +2679,14 @@
             "group" : "org.apache.nifi",
             "version" : "2.6.0"
           },
-          "type" : "org.apache.nifi.distributed.cache.client.AtomicDistributedMapCacheClient"
+          "type" : "org.apache.nifi.distributed.cache.client.DistributedMapCacheClient"
         }, {
           "bundle" : {
             "artifact" : "nifi-standard-services-api-nar",
             "group" : "org.apache.nifi",
             "version" : "2.6.0"
           },
-          "type" : "org.apache.nifi.distributed.cache.client.DistributedMapCacheClient"
+          "type" : "org.apache.nifi.distributed.cache.client.AtomicDistributedMapCacheClient"
         } ],
         "groupIdentifier" : "d70679a7-4ca5-373c-8613-0737edfb7fa5",
         "identifier" : "3632eb59-6a62-354d-ae7b-42b6941c17a2",
@@ -2743,14 +2743,14 @@
             "group" : "org.apache.nifi",
             "version" : "2.6.0"
           },
-          "type" : "org.apache.nifi.distributed.cache.client.AtomicDistributedMapCacheClient"
+          "type" : "org.apache.nifi.distributed.cache.client.DistributedMapCacheClient"
         }, {
           "bundle" : {
             "artifact" : "nifi-standard-services-api-nar",
             "group" : "org.apache.nifi",
             "version" : "2.6.0"
           },
-          "type" : "org.apache.nifi.distributed.cache.client.DistributedMapCacheClient"
+          "type" : "org.apache.nifi.distributed.cache.client.AtomicDistributedMapCacheClient"
         } ],
         "groupIdentifier" : "d70679a7-4ca5-373c-8613-0737edfb7fa5",
         "identifier" : "457be03c-5554-374a-affb-154636d79d0d",
@@ -2905,8 +2905,8 @@
       "name" : "token",
       "outputPorts" : [ ],
       "position" : {
-        "x" : -808.0,
-        "y" : -184.0
+        "x" : -1120.0,
+        "y" : -344.0
       },
       "processGroups" : [ ],
       "processors" : [ {
@@ -4618,6 +4618,6 @@
   "snapshotMetadata" : {
     "author" : "admin",
     "flowIdentifier" : "kafka-minio-minimal-flow",
-    "timestamp" : 1761775174182
+    "timestamp" : 1761778768609
   }
 }
