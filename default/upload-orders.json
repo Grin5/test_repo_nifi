@@ -45,8 +45,8 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : -272.0,
-        "y" : -136.0
+        "x" : -240.0,
+        "y" : -144.0
       } ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -257,7 +257,10 @@
     }, {
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
+      "bends" : [ {
+        "x" : -232.0,
+        "y" : 656.0
+      } ],
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
@@ -347,7 +350,10 @@
     }, {
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
+      "bends" : [ {
+        "x" : -232.0,
+        "y" : 512.0
+      } ],
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
@@ -377,7 +383,10 @@
     }, {
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
+      "bends" : [ {
+        "x" : -232.0,
+        "y" : 360.0
+      } ],
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
@@ -613,48 +622,48 @@
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "015c0cd7-22c1-31c1-96d5-631a17fe69c7",
       "position" : {
-        "x" : 552.0,
-        "y" : 320.0
+        "x" : 528.0,
+        "y" : 280.0
       }
     }, {
       "componentType" : "FUNNEL",
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "39d4f19b-5fcf-3976-a060-1cb5f6a3f862",
       "position" : {
-        "x" : 616.0,
-        "y" : 760.0
+        "x" : 544.0,
+        "y" : 552.0
       }
     }, {
       "componentType" : "FUNNEL",
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "78063fe4-426b-3811-b42b-09da202f284c",
       "position" : {
-        "x" : -560.0,
-        "y" : 32.0
+        "x" : 544.0,
+        "y" : 48.0
       }
     }, {
       "componentType" : "FUNNEL",
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "aaff5aaa-fe6e-315b-bad9-63b462fbb7fe",
       "position" : {
-        "x" : 56.0,
-        "y" : 1272.0
+        "x" : 48.0,
+        "y" : 880.0
       }
     }, {
       "componentType" : "FUNNEL",
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "b2c2e775-eda1-3307-9c54-a88880820d1f",
       "position" : {
-        "x" : 568.0,
-        "y" : 1024.0
+        "x" : 536.0,
+        "y" : 712.0
       }
     }, {
       "componentType" : "FUNNEL",
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "eb6b91ad-3671-3c5b-953a-3649e0220160",
       "position" : {
-        "x" : 760.0,
-        "y" : 32.0
+        "x" : 544.0,
+        "y" : -24.0
       }
     } ],
     "identifier" : "flow-contents-group",
@@ -688,8 +697,8 @@
       "name" : "JoltTransformJSON",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -96.0,
-        "y" : 712.0
+        "x" : -104.0,
+        "y" : 520.0
       },
       "properties" : {
         "JSON Source" : "FLOW_FILE",
@@ -800,8 +809,8 @@
       "name" : "ReplaceText",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -96.0,
-        "y" : 496.0
+        "x" : -104.0,
+        "y" : 376.0
       },
       "properties" : {
         "Regular Expression" : "${fullRecord}",
@@ -1573,8 +1582,8 @@
       "name" : "InvokeHTTP",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -96.0,
-        "y" : 984.0
+        "x" : -104.0,
+        "y" : 664.0
       },
       "properties" : {
         "Request Content-Encoding" : "DISABLED",
@@ -1893,6 +1902,6 @@
   "snapshotMetadata" : {
     "author" : "admin",
     "flowIdentifier" : "upload-orders",
-    "timestamp" : 1761848789787
+    "timestamp" : 1761848974099
   }
 }
