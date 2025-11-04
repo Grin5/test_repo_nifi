@@ -67,7 +67,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "508cb504-019a-1000-4aea-54485fa1c993",
-        "name" : "PutSQL",
+        "name" : "PutSQL start",
         "type" : "PROCESSOR"
       },
       "zIndex" : 21
@@ -127,7 +127,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "50946cdc-019a-1000-3f4d-ef524cce1ae4",
-        "name" : "PutSQL",
+        "name" : "PutSQL Process",
         "type" : "PROCESSOR"
       },
       "zIndex" : 24
@@ -277,7 +277,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "5098b865-019a-1000-d15d-60f32e62f23f",
-        "name" : "PutSQL sucess",
+        "name" : "PutSQL Success",
         "type" : "PROCESSOR"
       },
       "zIndex" : 29
@@ -293,7 +293,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "5098b866-019a-1000-f653-5422cd96f1fc",
-        "name" : "PutSQL Fail",
+        "name" : "PutSQL Error",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -340,7 +340,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "5098b866-019a-1000-f653-5422cd96f1fc",
-        "name" : "PutSQL Fail",
+        "name" : "PutSQL Error",
         "type" : "PROCESSOR"
       },
       "zIndex" : 28
@@ -356,7 +356,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "5098b866-019a-1000-f653-5422cd96f1fc",
-        "name" : "PutSQL Fail",
+        "name" : "PutSQL Error",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -433,7 +433,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "50946cdc-019a-1000-3f4d-ef524cce1ae4",
-        "name" : "PutSQL",
+        "name" : "PutSQL Process",
         "type" : "PROCESSOR"
       },
       "zIndex" : 25
@@ -463,7 +463,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "50946cdc-019a-1000-3f4d-ef524cce1ae4",
-        "name" : "PutSQL",
+        "name" : "PutSQL Process",
         "type" : "PROCESSOR"
       },
       "zIndex" : 23
@@ -476,7 +476,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "508cb504-019a-1000-4aea-54485fa1c993",
-        "name" : "PutSQL",
+        "name" : "PutSQL start",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -523,7 +523,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "5098b866-019a-1000-f653-5422cd96f1fc",
-        "name" : "PutSQL Fail",
+        "name" : "PutSQL Error",
         "type" : "PROCESSOR"
       },
       "zIndex" : 27
@@ -553,7 +553,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "508cb504-019a-1000-4aea-54485fa1c993",
-        "name" : "PutSQL",
+        "name" : "PutSQL start",
         "type" : "PROCESSOR"
       },
       "zIndex" : 20
@@ -569,7 +569,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "5098b866-019a-1000-f653-5422cd96f1fc",
-        "name" : "PutSQL Fail",
+        "name" : "PutSQL Error",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -629,7 +629,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "50946cdc-019a-1000-3f4d-ef524cce1ae4",
-        "name" : "PutSQL",
+        "name" : "PutSQL Process",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -676,7 +676,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "5098b865-019a-1000-d15d-60f32e62f23f",
-        "name" : "PutSQL sucess",
+        "name" : "PutSQL Success",
         "type" : "PROCESSOR"
       },
       "zIndex" : 30
@@ -722,7 +722,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "5098b865-019a-1000-d15d-60f32e62f23f",
-        "name" : "PutSQL sucess",
+        "name" : "PutSQL Success",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -1924,7 +1924,7 @@
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "508cb504-019a-1000-4aea-54485fa1c993",
       "maxBackoffPeriod" : "10 mins",
-      "name" : "PutSQL",
+      "name" : "PutSQL start",
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -72.0,
@@ -2022,7 +2022,7 @@
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "50946cdc-019a-1000-3f4d-ef524cce1ae4",
       "maxBackoffPeriod" : "10 mins",
-      "name" : "PutSQL",
+      "name" : "PutSQL Process",
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -72.0,
@@ -2120,7 +2120,7 @@
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "5098b865-019a-1000-d15d-60f32e62f23f",
       "maxBackoffPeriod" : "10 mins",
-      "name" : "PutSQL sucess",
+      "name" : "PutSQL Success",
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : 392.0,
@@ -2128,7 +2128,7 @@
       },
       "properties" : {
         "Support Fragmented Transactions" : "false",
-        "putsql-sql-statement" : "UPDATE public.processes \nSET \n  status = 'Sucess',\n  \"timestamp\" = '${now():format(\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")}'\nWHERE \n  transactionid = '${transactionId}' \n  AND objectname = 'customer' \n  AND eventtype = 'createCustomer';",
+        "putsql-sql-statement" : "UPDATE public.processes \nSET \n  status = 'Success',\n  \"timestamp\" = '${now():format(\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")}'\nWHERE \n  transactionid = '${transactionId}' \n  AND objectname = 'customer' \n  AND eventtype = 'createCustomer';",
         "Batch Size" : "1",
         "Obtain Generated Keys" : "false",
         "JDBC Connection Pool" : "c79d207d-2029-351e-b15b-6a57de06e43c",
@@ -2218,7 +2218,7 @@
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "5098b866-019a-1000-f653-5422cd96f1fc",
       "maxBackoffPeriod" : "10 mins",
-      "name" : "PutSQL Fail",
+      "name" : "PutSQL Error",
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -552.0,
@@ -2226,7 +2226,7 @@
       },
       "properties" : {
         "Support Fragmented Transactions" : "false",
-        "putsql-sql-statement" : "UPDATE public.processes \nSET \n  status = 'Fail',\n  error = 'HTTP ${invokehttp.status.code} ${invokehttp.status.message}: ${invokehttp.response.body}',\n  \"timestamp\" = '${now():format(\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")}'\nWHERE \n  transactionid = '${transactionId}' \n  AND objectname = 'customer' \n  AND eventtype = 'createCustomer';",
+        "putsql-sql-statement" : "UPDATE public.processes \nSET \n  status = 'Error',\n  error = 'HTTP ${invokehttp.status.code} ${invokehttp.status.message}: ${invokehttp.response.body}',\n  \"timestamp\" = '${now():format(\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")}'\nWHERE \n  transactionid = '${transactionId}' \n  AND objectname = 'customer' \n  AND eventtype = 'createCustomer';",
         "Batch Size" : "1",
         "Obtain Generated Keys" : "false",
         "JDBC Connection Pool" : "c79d207d-2029-351e-b15b-6a57de06e43c",
@@ -2645,6 +2645,6 @@
   "snapshotMetadata" : {
     "author" : "admin",
     "flowIdentifier" : "upload-customer",
-    "timestamp" : 1762289834248
+    "timestamp" : 1762291881790
   }
 }
