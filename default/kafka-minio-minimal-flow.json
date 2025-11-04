@@ -179,7 +179,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "50720d69-019a-1000-08a0-bac84bc29b35",
-        "name" : "PutSQL",
+        "name" : "PutSQL Error",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -289,7 +289,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "506ab699-019a-1000-e9c6-b5e3c9c4e6b5",
-        "name" : "PutSQL",
+        "name" : "PutSQL Success",
         "type" : "PROCESSOR"
       },
       "zIndex" : 75
@@ -515,7 +515,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "506ab699-019a-1000-e9c6-b5e3c9c4e6b5",
-        "name" : "PutSQL",
+        "name" : "PutSQL Success",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
@@ -808,7 +808,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "50720d69-019a-1000-08a0-bac84bc29b35",
-        "name" : "PutSQL",
+        "name" : "PutSQL Error",
         "type" : "PROCESSOR"
       },
       "zIndex" : 77
@@ -838,7 +838,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "50720d69-019a-1000-08a0-bac84bc29b35",
-        "name" : "PutSQL",
+        "name" : "PutSQL Error",
         "type" : "PROCESSOR"
       },
       "zIndex" : 78
@@ -931,7 +931,7 @@
         "comments" : "",
         "groupId" : "flow-contents-group",
         "id" : "506ab699-019a-1000-e9c6-b5e3c9c4e6b5",
-        "name" : "PutSQL",
+        "name" : "PutSQL Success",
         "type" : "PROCESSOR"
       },
       "zIndex" : 76
@@ -4828,7 +4828,7 @@
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "506ab699-019a-1000-e9c6-b5e3c9c4e6b5",
       "maxBackoffPeriod" : "10 mins",
-      "name" : "PutSQL",
+      "name" : "PutSQL Success",
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : 496.0,
@@ -4836,7 +4836,7 @@
       },
       "properties" : {
         "Support Fragmented Transactions" : "false",
-        "putsql-sql-statement" : "UPDATE public.processes \nSET \n  status = 'Sucess',\n  \"timestamp\" = '${now():format(\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")}'\nWHERE \n  transactionid = '${transactionId}' \n  AND objectname = 'product' \n  AND eventtype = 'exportCatalog';",
+        "putsql-sql-statement" : "UPDATE public.processes \nSET \n  status = 'Success',\n  \"timestamp\" = '${now():format(\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")}'\nWHERE \n  transactionid = '${transactionId}' \n  AND objectname = 'product' \n  AND eventtype = 'exportCatalog';",
         "Batch Size" : "1",
         "Obtain Generated Keys" : "false",
         "JDBC Connection Pool" : "f12df265-248a-3309-8321-0e0a901b9c97",
@@ -4926,7 +4926,7 @@
       "groupIdentifier" : "flow-contents-group",
       "identifier" : "50720d69-019a-1000-08a0-bac84bc29b35",
       "maxBackoffPeriod" : "10 mins",
-      "name" : "PutSQL",
+      "name" : "PutSQL Error",
       "penaltyDuration" : "30 sec",
       "position" : {
         "x" : -784.0,
@@ -4934,7 +4934,7 @@
       },
       "properties" : {
         "Support Fragmented Transactions" : "false",
-        "putsql-sql-statement" : "UPDATE public.processes \nSET \n  status = 'Fail',\n  error = 'HTTP ${invokehttp.status.code} ${invokehttp.status.message}: ${invokehttp.response.body}',\n  \"timestamp\" = '${now():format(\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")}'\nWHERE \n  transactionid = '${transactionId}' \n  AND objectname = 'product' \n  AND eventtype = 'exportCatalog';",
+        "putsql-sql-statement" : "UPDATE public.processes \nSET \n  status = 'Error',\n  error = 'HTTP ${invokehttp.status.code} ${invokehttp.status.message}: ${invokehttp.response.body}',\n  \"timestamp\" = '${now():format(\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\")}'\nWHERE \n  transactionid = '${transactionId}' \n  AND objectname = 'product' \n  AND eventtype = 'exportCatalog';",
         "Batch Size" : "1",
         "Obtain Generated Keys" : "false",
         "JDBC Connection Pool" : "f12df265-248a-3309-8321-0e0a901b9c97",
@@ -6069,6 +6069,6 @@
   "snapshotMetadata" : {
     "author" : "admin",
     "flowIdentifier" : "kafka-minio-minimal-flow",
-    "timestamp" : 1762287947789
+    "timestamp" : 1762291876007
   }
 }
