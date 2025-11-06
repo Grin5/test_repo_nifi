@@ -687,8 +687,8 @@
       "backPressureDataSizeThreshold" : "1 GB",
       "backPressureObjectThreshold" : 10000,
       "bends" : [ {
-        "x" : -246.706409573555,
-        "y" : 971.9324569702148
+        "x" : -248.0,
+        "y" : 952.0
       } ],
       "componentType" : "CONNECTION",
       "destination" : {
@@ -3221,6 +3221,6 @@
   "snapshotMetadata" : {
     "author" : "admin",
     "flowIdentifier" : "upload-orders",
-    "timestamp" : 1762291866310
+    "timestamp" : 1762389472179
   }
 }
